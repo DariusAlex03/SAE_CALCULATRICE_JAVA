@@ -1,32 +1,20 @@
 package main;
 
-public class Soustraction extends Operation{
-    private int ope1;
-    private int ope2;
-    private int resul;
+public class Soustraction extends Operation {
 
     public Soustraction(Nombre op1, Nombre op2){
 
-        this.resul = op1 - op2;
+        super(op1, op2);
     }
 
     public int valeur(){
-        return 0;
+
+        return getOPerande1().valeur() - getOPerande2().valeur();
     }
 
     public String toString() {
-        return super.toString();
-    }
 
-    @Override
-    public Nombre getOPerande1(){
-
-        return null;
-    }
-
-    @Override
-    public Nombre getOPerande2() {
-        return null;
+        return getOPerande1().valeur() + " - " + getOPerande2().valeur() + " = " + valeur();
     }
 
 }

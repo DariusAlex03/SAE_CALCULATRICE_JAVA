@@ -1,29 +1,17 @@
 package main;
 
 public class Addition extends Operation{
-    private Nombre ope1;
-    private Nombre ope2;
 
     public Addition(Nombre op1, Nombre op2){
-        this.ope1 = op1;
-        this.ope2 = op2;
+        super(op1, op2);
     }
 
     public int valeur(){
-        return 0;
+        return getOPerande1().valeur()+getOPerande2().valeur();
     }
 
     public String toString() {
-        return super.toString();
+        return getOPerande1().valeur() + " + " + getOPerande2().valeur() + " = " + valeur();
     }
 
-    @Override
-    public Nombre getOPerande1() {
-        return this.ope1;
-    }
-
-    @Override
-    public Nombre getOPerande2() {
-        return this.ope2;
-    }
 }

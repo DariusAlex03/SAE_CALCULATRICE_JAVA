@@ -1,7 +1,7 @@
 package main;
 
 public class Nombre {
-    private int valeurNombre;
+    private final int valeurNombre;
 
     public Nombre(int nb){
         this.valeurNombre = nb;
