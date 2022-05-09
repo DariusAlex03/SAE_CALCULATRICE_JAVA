@@ -3,15 +3,16 @@ package main;
 public class Nombre {
     private int valeurNombre;
 
-    public int Nombre(int nb){
-        return nb;
+    public Nombre(int nb){
+        this.valeurNombre = nb;
     }
 
-    public int getValeurNombre() {
-        return valeurNombre;
+    public int valeur(){
+        return this.valeurNombre;
     }
 
-    public void setValeurNombre(int valeurNombre) {
-        this.valeurNombre = valeurNombre;
+    @Override
+    public String toString() {
+        return "Le nombre est " + this.valeurNombre ;
     }
 }
