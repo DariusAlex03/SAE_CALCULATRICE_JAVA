@@ -1,13 +1,13 @@
 package main;
 
 public class Division extends Operation{
-    public Division(Nombre op1, Nombre op2){
+    public Division(Expression op1, Expression op2){
         super(op1, op2);
     }
-    public int valeur(){
+    public double valeur(){
         int result = 0;
         try {
-            result = getOPerande1().valeur() / getOPerande2().valeur();
+            result = (int) (getOPerande1().valeur() / getOPerande2().valeur());
             return result;
         }
         catch (ArithmeticException e){
@@ -17,7 +17,7 @@ public class Division extends Operation{
     }
 
     public String toString() {
-        return getOPerande1().valeur() + " / " + getOPerande2().valeur() + " = " + valeur();
+        return getOPerande1().valeur() + " / " + getOPerande2().valeur() + " = " ;
     }
 
 }

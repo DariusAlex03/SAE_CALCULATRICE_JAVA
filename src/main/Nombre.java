@@ -1,13 +1,13 @@
 package main;
 
-public class Nombre {
+public class Nombre extends Expression{
     private final int valeurNombre;
 
     public Nombre(int nb){
         this.valeurNombre = nb;
     }
 
-    public int valeur(){
+    public double valeur(){
         return this.valeurNombre;
     }
 

@@ -6,7 +6,7 @@ public class Multiplication extends Operation{
         super(op1, op2);
     }
 
-    public int valeur(){
+    public double valeur(){
         return getOPerande1().valeur()*getOPerande2().valeur();
     }
 
