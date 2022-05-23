@@ -8,6 +8,8 @@ public class TestCalculatrice {
         Expression s = new Soustraction(dixSept, deux) ;
         Expression a = new Addition(deux, trois) ;
         Expression d = new Division(s, a) ;
-        System.out.println(d + " = " + d.valeur()) ; // affiche ((17 - 2) / (2 + 3)) = 3
+        System.out.println(s + "/ " + a + "= " + d.valeur()) ; // affiche ((17 - 2) / (2 + 3)) = 3
+        // ou
+        System.out.println(d + " = " + d.valeur()) ; // affiche (15 / 5) = 3
     }
 }
