@@ -14,7 +14,7 @@ public class Soustraction extends Operation {
 
     public String toString() {
 
-        return getOPerande1().valeur() + " - " + getOPerande2().valeur() + " = " + valeur();
+        return "("+getOPerande1().valeur() + " - " + getOPerande2().valeur() + ") = " + valeur();
     }
 
 }
