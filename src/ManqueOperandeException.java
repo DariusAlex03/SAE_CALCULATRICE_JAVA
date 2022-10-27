@@ -23,7 +23,7 @@ public class ManqueOperandeException extends Exception{
 
     }
     public String getMessage(){
-        return ( l'expression est levée '+getOperande1().valeur '+' + getOperande2().valeur()' );
+        return ( l'exception est levée '+getOperande1().valeur '+' + getOperande2().valeur()' );
     }
 
 
