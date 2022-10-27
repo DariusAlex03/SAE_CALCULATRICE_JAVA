@@ -1,6 +1,13 @@
 package main;
 
 public class Division extends Operation{
+
+    public Division(Expression op1,Expression op2)throws ManqueOperandeException{
+        super(op1, op2);
+        if (op1.valeur() == 0 | op2.valeur() == 0){
+            throw new ManqueOperandeException();
+        }
+    }
     public Division(Expression op1, Expression op2){
         super(op1, op2);
     }
