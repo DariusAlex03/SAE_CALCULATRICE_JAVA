@@ -9,7 +9,7 @@ Buzura Darius</br>
 Pour la première partie il faut éxecuter la methode main de CalculatriceSimple.
 Pour la deuxième partie il faut executer la methode main de TestCalculatrice.
 Le diagramme UML à été réalisé avec le site web draw.io .Le fichier Diagramme.xml peut être ouvert avec ce site ou 
-le diagramme peut être visualisé en ouvrant Diagramme.png.
+le diagramme peut être visualisé en ouvrant Diagramme.png.</br>
 Répartition des tâches :</br>
 <hr>
 
