@@ -1,6 +1,6 @@
 <div align="center">
-**SAE R201 </br>
-**Calculatrice java
+<h2>SAE R201 </br>
+Calculatrice java</h2>
 
 Cette SAE à été réalisée par le binôme composé de : 
 Benaissa Younes</br>
@@ -11,12 +11,14 @@ Pour la deuxième partie il faut executer la methode main de TestCalculatrice.
 Le diagramme UML à été réalisé avec le site web draw.io .Le fichier Diagramme.xml peut être ouvert avec ce site ou 
 le diagramme peut être visualisé en ouvrant Diagramme.png.
 </br>
-Répartition des tâches :</br></br>
+<hr>
+Répartition des tâches :</br>
 Younes BENAISSA :</br>
 Soustraction</br>
 Division</br>
 TestCalculatrice</br>
-</br></br>
+</br>
+<hr>
 Buzura Darius :</br>
 Nombre</br>
 Operation</br>
